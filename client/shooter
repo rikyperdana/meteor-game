@@ -6,9 +6,9 @@ bulletTime = 0
 
 # Urusan Preload ------------------------------------------------------------------------------
 preload = ->
-	game.load.image 'space', 'skies/deep-space.jpg'
-	game.load.image 'bullet', 'games/asteroids/bullets.png'
-	game.load.image 'ship', 'games/asteroids/ship.png'
+	game.load.image 'space', 'shooter/deep-space.jpg'
+	game.load.image 'bullet', 'shooter/bullets.png'
+	game.load.image 'ship', 'shooter/ship.png'
 
 # Urusan Create -------------------------------------------------------------------------------
 create = ->
